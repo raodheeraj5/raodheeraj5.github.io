@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  color: #222;
+  background: #fafafa;
+  line-height: 1.7;
+}
+
+header {
+  border-bottom: 1px solid #ddd;
+}
+
+nav {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  color: inherit;
+}
+
+.logo {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+}
+
+.nav-links a {
+  text-decoration: none;
+}
+
+.nav-links a:hover,
+.post h3 a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 80px 20px;
+}
+
+.hero {
+  max-width: 700px;
+  margin-bottom: 100px;
+}
+
+.eyebrow {
+  font-family: Arial, sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  color: #666;
+}
+
+h1 {
+  font-size: 4rem;
+  line-height: 1.1;
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 35px;
+}
+
+.intro {
+  font-size: 1.35rem;
+  color: #555;
+}
+
+.post {
+  padding: 25px 0;
+  border-top: 1px solid #ddd;
+}
+
+.date {
+  font-family: Arial, sans-serif;
+  font-size: 0.8rem;
+  color: #777;
+}
+
+.post h3 {
+  font-size: 1.5rem;
+  margin: 8px 0;
+}
+
+.post h3 a {
+  text-decoration: none;
+}
+
+.post p:last-child {
+  color: #555;
+}
+
+#about {
+  margin-top: 100px;
+  max-width: 650px;
+}
+
+footer {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  border-top: 1px solid #ddd;
+  color: #777;
+  font-size: 0.85rem;
+}
