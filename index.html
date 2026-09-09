@@ -6,64 +6,115 @@
     <title>Dheeraj Rao</title>
     <meta
       name="description"
-      content="Dheeraj Rao writes about mathematics, computer science, AI, and building things."
+      content="Dheeraj Rao writes about mathematics, computer science, AI, and building useful things."
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
-
   <body>
-    <header>
-      <nav>
-        <a href="/" class="logo">Dheeraj Rao</a>
-
-        <div class="nav-links">
-          <a href="#writing">Writing</a>
-          <a href="#about">About</a>
+    <main class="site-shell">
+      <header class="masthead">
+        <div class="identity">
+          <img
+            class="profile-photo"
+            src="./pic.png"
+            alt="Portrait of Dheeraj Rao"
+          />
+          <div>
+            <h1>Dheeraj Rao</h1>
+            <p class="tagline">
+              I like to learn deeply and build useful things.
+            </p>
+          </div>
         </div>
-      </nav>
-    </header>
+        <nav aria-label="Primary navigation">
+          <a class="nav-links" href="#about">about</a>
+          <a class="nav-links" href="#writing">blog</a>
+          <!-- <a class="nav-links" href="#projects">projects</a> -->
+          <!-- <a class="nav-links" href="#contact">contact</a> -->
+        </nav>
+      </header>
 
-    <main>
-      <section class="hero">
-        <p class="eyebrow">MATHEMATICS · COMPUTER SCIENCE · AI</p>
-
-        <h1>I'm Dheeraj.</h1>
-
-        <p class="intro">
-          I'm rebuilding my mathematical and technical foundations and writing
-          about what I learn along the way.
-        </p>
-      </section>
-
-      <section id="writing">
-        <h2>Writing</h2>
-
-        <article class="post">
-          <p class="date">September 9, 2026</p>
-          <h3>
-            <a href="#">Why I'm Starting Over With Mathematics</a>
-          </h3>
-          <p>
-            Why I'm rebuilding my mathematical foundations, what I'm studying,
-            and where I want it to take me.
-          </p>
-        </article>
-      </section>
-
-      <section id="about">
-        <h2>About</h2>
-
+      <section class="intro" id="about">
         <p>
-          I'm interested in mathematics, computer science, artificial
-          intelligence, and building useful things.
+          Hello! I'm Dheeraj, a curious builder exploring the foundations of
+          mathematics, computer science, and artificial intelligence. I use this
+          little corner of the internet to document what I learn and make.
         </p>
-
-        <p>This is where I document the process.</p>
+        <p>
+          At the moment, I'm rebuilding my mathematical and technical
+          foundations from first principles, one careful idea at a time.
+        </p>
+        <p class="links">
+          Find me on
+          <a
+            href="https://github.com/raodheeraj5"
+            target="_blank"
+            rel="noreferrer"
+            >GitHub</a
+          >, or <a href="mailto:raodheeraj.mail@gmail.com">email</a>.
+        </p>
       </section>
-    </main>
 
-    <footer>
-      <p>© 2026 Dheeraj Rao</p>
-    </footer>
+      <hr />
+
+      <section id="writing" class="content-section">
+        <h2>blog</h2>
+        <div class="entry-list">
+          <article class="entry">
+            <time datetime="2026-09-09">September 9, 2026</time>
+            <h3>
+              <a href="blogs/starting-over.html"
+                >28, Starting Over, and Scared</a
+              >
+            </h3>
+            <p>
+              This is either the smartest decision of my life or the one that
+              finally proves everyone right about me.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- <section class="content-section" id="projects">
+        <h2>projects</h2>
+        <p>Small experiments, tools, and other things I am currently making.</p>
+        <div class="project-list">
+          <a class="project" href="#"
+            ><span class="project-name">Foundations</span
+            ><span
+              >A public notebook for mathematics and computer science.</span
+            ></a
+          >
+          <a class="project" href="#"
+            ><span class="project-name">Learning in Public</span
+            ><span
+              >Simple tools for turning notes into durable understanding.</span
+            ></a
+          >
+          <a
+            class="project"
+            href="https://github.com/"
+            target="_blank"
+            rel="noreferrer"
+            ><span class="project-name">GitHub →</span
+            ><span>Code, experiments, and unfinished ideas.</span></a
+          >
+        </div>
+      </section> -->
+
+      <!-- <section class="content-section" id="contact">
+        <h2>contact</h2>
+        <p>
+          If you want to talk drop a mail at
+          <a href="mailto:raodheeraj.mail@gmail.com"
+            >raodheeraj.mail@gmail.com</a
+          >.
+        </p>
+      </section> -->
+
+      <footer>
+        <span>© 2026 Dheeraj Rao</span>
+      </footer>
+    </main>
   </body>
 </html>
